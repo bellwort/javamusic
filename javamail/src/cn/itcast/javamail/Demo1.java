@@ -43,6 +43,8 @@ public class Demo1 {
               }});
         s.setDebug(true);
         message = new MimeMessage(s);
+        
+        System.out.println("success");
     }
  
     /**
